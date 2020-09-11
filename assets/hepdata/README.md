@@ -11,6 +11,6 @@ To be uploaded to the HEPData database, the files in each directory need to be t
 
 ## List of uploads
 
-055, 079, 090, 092, 095, 113, 116, 138, 227
+055, 079, 090, 092, 095, 113, 116, 129, 133, 138, 146, 174, 227
 
 
