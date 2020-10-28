@@ -257,6 +257,10 @@ dependent_variables:
     errors:
     - {symerror: 3.63e-10, label: 'stat'}
     - {symerror: 3.69e-10, label: 'sys'}
+  - value: 4.20e-10
+    errors:
+    - {symerror: 5.25e-11, label: 'stat'}
+    - {symerror: 6.06e-11, label: 'sys'}
 - header: {name: '$\frac{1}{2\pi p_{T} \Delta p_{T} \Delta y} \frac{c_\mathrm{BBC}}{\varepsilon_\mathrm{Ae} \varepsilon_\mathrm{trig}} \frac{N_{J/\psi}}{N_\mathrm{evt}}$  (global err. 10.2%)'}
   qualifiers:
   - {name: '$p_{T}[GeV/c]$', value: '$\frac{B_{ll}}{2\pi p_{T}} \frac{d^{2}N}{dydp_{T}}$,  p+Au$\sqrt{s_{NN}}$=200GeV, 0--20% Centrality, $1.2 < y < 2.2$'}
