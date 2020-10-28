@@ -171,7 +171,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
   - {name: phrases, values: [Inclusive]}
 data_file: RpAl_RpAu_020_pT.yaml
-description: "J/psi nuclear modification in p+Al most central collisions as a function of pT is directly compared with p+Au collisions (Data listed in Table18) at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+description: "J/psi nuclear modification in p+Al most central collisions as a function of pT is directly compared with p+Au collisions (Data listed in Table16) at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
 ####
 ---
 name: "Table 16"
@@ -193,7 +193,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
   - {name: phrases, values: [Inclusive]}
 data_file: RHeAu_RpAu_020_pT.yaml
-description: "J/psi nuclear modification in 3He+Au most central collisions as a function of pT is directly compared to p+Au collisions (Data listed in Table 18) at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+description: "J/psi nuclear modification in 3He+Au most central collisions as a function of pT is directly compared to p+Au collisions (Data listed in Table 16) at forward and backward rapidity.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
 ####
 ---
 name: "Table 18"
@@ -270,7 +270,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
   - {name: phrases, values: [Inclusive]}
 data_file: pAl_ptsq.yaml
-description: "J/psi pT squared in p+Al collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+description: "J/psi mean pT squared in p+Al collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
 ####
 ---
 name: "Table 25"
@@ -281,7 +281,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
   - {name: phrases, values: [Inclusive]}
 data_file: pAu_ptsq.yaml
-description: "J/psi pT squared in p+Au collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+description: "J/psi mean pT squared in p+Au collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
 ####
 ---
 name: "Table 26"
@@ -292,7 +292,7 @@ keywords: # used for searching, possibly multiple values for each keyword
   - {name: cmenergies, values: [200.0]} # centre-of-mass energy in GeV
   - {name: phrases, values: [Inclusive]}
 data_file: HeAu_ptsq.yaml
-description: "J/psi pT squared in 3He+Au collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
+description: "J/psi mean pT squared in 3He+Au collisions as a function of N_coll.  The statistical and systematic uncertainties vary point-to-point and are listed for each measured value.  An additional global systematic uncertainty is provided in each column heading, which applies to all data points per column." # (optional)
 ####
 ---
 name: "Table 27"
