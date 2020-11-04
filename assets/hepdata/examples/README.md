@@ -1,5 +1,5 @@
 # HEPData - examples
 
-Simple example to server as in introduction to formatting HEPData submission packages
+A collection of simple examples to serve as an introduction to formatting HEPData submission packages
 
 
