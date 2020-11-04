@@ -9,8 +9,11 @@ https://www.youtube.com/watch?v=_hz6EVPeuW4&t=4s
 ## Procedure
 To be uploaded to the HEPData database, the files in each directory need to be tarred or zipped and this compressed file is uploaded to HEPData.
 
-## List of uploads
+## Examples
+See the "examples" folder
 
-055, 079, 090, 092, 095, 113, 116, 129, 133, 138, 146, 174, 227
+## List of completed uploads
+
+055, 079, 090, 092, 095, 113, 116, 129, 133, 138, 146, 174, 227, 228
 
 

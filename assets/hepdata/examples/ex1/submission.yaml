@@ -1,0 +1,12 @@
+additional_resources:
+- {description: Example 1, location: 'https://phenix.bnl.gov/'}
+comment: "Example 1"
+---
+data_file: ex1.yaml
+description: "Example 1"
+keywords:
+- name: observables
+  values: [MASS]
+location: Data from Example 1
+name: Example 1
+---

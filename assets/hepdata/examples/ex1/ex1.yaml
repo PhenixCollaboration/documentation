@@ -1,0 +1,27 @@
+dependent_variables:
+- header: {name: '$d\sigma/dM_{ee}$', units: 'mb/MeV'}
+  values:
+  - errors:
+    - {label: total, symerror: 0.007}
+    value: 0.015
+  - errors:
+    - {label: total, symerror: 0.008}
+    value: 0.025
+  - errors:
+    - {label: total, symerror: 0.005}
+    value: 0.014
+  - errors:
+    - {label: total, symerror: 0.004}
+    value: 0.008
+  - errors:
+    - {label: total, symerror: 0.005}
+    value: 0.006
+
+independent_variables:
+- header: {name: 'Pair Invariant Mass $M_{ee}$', units: 'GeV'}
+  values:
+  - {value: 0.150, low: 0.140, high: 0.165}
+  - {value: 0.1775, low: 0.165, high: 0.190}
+  - {value: 0.2025, low: 0.190, high: 0.215}
+  - {value: 0.2275, low: 0.215, high: 0.240}
+  - {value: 0.2525, low: 0.240, high: 0.265}
