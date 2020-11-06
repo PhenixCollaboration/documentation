@@ -2,7 +2,7 @@
 # Note the keywords.
 additional_resources:
 - {description: Example 1, location: 'https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata/examples/ex1/'}
-comment: "Example 1. Data is fictional. Simple case of a distribution with errors on X and Y. Illustration of keyword use, both standard and custom (phrases)"
+comment: "Example 1. Data is not real and only serves demonstration purposes. Simple case of a distribution with errors on X and Y. Illustration of keyword use, both standard and custom (phrases)"
 ---
 data_file: ex1.yaml
 description: "Example 1"
