@@ -16,7 +16,7 @@ independent_variables:
 dependent_variables:
 - header: {name: '$\sigma$'}
   qualifiers:
-  - {name: '$p_T$', value: 'p+p at $\sqrt{s}=$200GeV $\eta\rightarrow\gamma\gamma$'}
+  - {name: '$p_T$', value: 'p+p at $\sqrt{s}=$200GeV $\eta\rightarrow\upgamma\upgamma$'}
   values:
   - value: 1.30E-03
     errors:
