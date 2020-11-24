@@ -12,7 +12,7 @@ independent_variables:
   - {low: 2.50, high: 3.00}
   - {low: 3.00, high: 4.00}
 dependent_variables:
-- header: {name: '$<p_T>$ in centrality 0-10%'}
+- header: {name: '$<p_T>$ [GeV/c] in centrality 0-10%'}
   values:
   - value: 0.362150
   - value: 0.612634
@@ -24,7 +24,7 @@ dependent_variables:
   - value: 2.199770
   - value: 2.702870
   - value: 3.346130
-- header: {name: '$<p_T>$ in centrality 10-20%'}
+- header: {name: '$<p_T>$ [GeV/c] in centrality 10-20%'}
   values:
   - value: 0.363685
   - value: 0.613046
@@ -36,7 +36,7 @@ dependent_variables:
   - value: 2.200620
   - value: 2.703390
   - value: 3.342610
-- header: {name: '$<p_T>$ in centrality 20-30%'}
+- header: {name: '$<p_T>$ [GeV/c] in centrality 20-30%'}
   values:
   - value: 0.36472
   - value: 0.61319
@@ -48,7 +48,7 @@ dependent_variables:
   - value: 2.20132
   - value: 2.70440
   - value: 3.34423
-- header: {name: '$<p_T>$ in centrality 30-40%'}
+- header: {name: '$<p_T>$ [GeV/c] in centrality 30-40%'}
   values:
   - value: 0.365228
   - value: 0.613210
@@ -60,7 +60,7 @@ dependent_variables:
   - value: 2.201870
   - value: 2.704370
   - value: 3.345210
-- header: {name: '$<p_T>$ in centrality 40-50%'}
+- header: {name: '$<p_T>$ [GeV/c] in centrality 40-50%'}
   values:
   - value: 0.365365
   - value: 0.613108
@@ -72,7 +72,7 @@ dependent_variables:
   - value: 2.202690
   - value: 2.705790
   - value: 3.349600
-- header: {name: '$<p_T>$ in centrality 50-60%'}
+- header: {name: '$<p_T>$ [GeV/c] in centrality 50-60%'}
   values:
   - value: 0.365247
   - value: 0.612792
