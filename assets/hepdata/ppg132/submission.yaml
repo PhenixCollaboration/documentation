@@ -17,7 +17,7 @@ of the extracted shear viscosity to entropy density ratio $\eta/s$.
 '
 additional_resources:
   - {location: "https://https://inspirehep.net/literature/900703", description: "InspireHEP reference"}
-  - {location: "phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg132_data.html", description: "legacy web page - available only only on the internal server"}
+  - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg132_data.html", description: "legacy web page - available only only on the internal server"}
 ---
 additional_resources:
 - {description: Image file, location: Fig2.png}
