@@ -1,10 +1,10 @@
 independent_variables:
 - header: {name: '$p_T$'}
   values:
-  - {low: 1.75, high: 2.75}
-  - {low: 2.25, high: 3.25}
-  - {low: 2.75, high: 3.75}
-  - {low: 3.25, high: 4.25}
+  - {low: 2, high: 2.5}
+  - {low: 2.5, high: 3}
+  - {low: 3, high: 3.5}
+  - {low: 3.5, high: 4}
   - {low: 4, high: 5}
   - {low: 5, high: 6}
   - {low: 6, high: 7}
@@ -208,23 +208,23 @@ dependent_variables:
     - {symerror: 2.65E-07, label: 'sys'}
     - {symerror: 1.04E-06, label: 'stat + type A'}
     - {symerror: 2.22E-07, label: 'type B'}
-  - value: --
+  - value: 0
     errors:
-    - {symerror: --, label: 'sys'}
-    - {symerror: --, label: 'stat + type A'}
-    - {symerror: --, label: 'type B'}
-  - value: --
+    - {symerror: 1.00E-20, label: 'sys'}
+    - {symerror: 1.00E-20, label: 'stat + type A'}
+    - {symerror: 1.00E-20, label: 'type B'}
+  - value: 0
     errors:
-    - {symerror: --, label: 'sys'}
-    - {symerror: --, label: 'stat + type A'}
-    - {symerror: --, label: 'type B'}
-  - value: --
+    - {symerror: 1.00E-20, label: 'sys'}
+    - {symerror: 1.00E-20, label: 'stat + type A'}
+    - {symerror: 1.00E-20, label: 'type B'}
+  - value: 0
     errors:
-    - {symerror: --, label: 'sys'}
-    - {symerror: --, label: 'stat + type A'}
-    - {symerror: --, label: 'type B'}
-  - value: --
+    - {symerror: 1.00E-20, label: 'sys'}
+    - {symerror: 1.00E-20, label: 'stat + type A'}
+    - {symerror: 1.00E-20, label: 'type B'}
+  - value: 0
     errors:
-    - {symerror: --, label: 'sys'}
-    - {symerror: --, label: 'stat + type A'}
-    - {symerror: --, label: 'type B'}
+    - {symerror: 1.00E-20, label: 'sys'}
+    - {symerror: 1.00E-20, label: 'stat + type A'}
+    - {symerror: 1.00E-20, label: 'type B'}

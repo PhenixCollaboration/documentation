@@ -88,7 +88,7 @@ keywords:
 data_file: rhscent_.yaml
 ---
 name: "Figure 9"
-description: 'Per-trigger yield $\Delta\phi$ distribution and corresponding fits for 2−3 $\otimes$ 2−3 GeV/c in 0-5% Au+Au collisions.'
+description: 'Per-trigger yield $\Delta\phi$ distribution and corresponding fits for 2-3 $\otimes$ 2-3 GeV/c in 0-5% Au+Au collisions.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
@@ -298,15 +298,15 @@ keywords:
   - {name: cmenergies, values: [200.0]}
 data_file: slope1_nearside.yaml
 ---
-name: "Figure 26, 3 − 4 GeV/c"
-description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 3 − 4 GeV/c.'
+name: "Figure 26, 3-4 GeV/c"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 3-4 GeV/c.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
 data_file: slope2_3_4.yaml
 ---
-name: "Figure 26, 4 − 5 GeV/c"
-description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 4 − 5 GeV/c.'
+name: "Figure 26, 4-5 GeV/c"
+description: 'Truncated mean $p_T$, $\langle p_T \rangle$, calculated for five partner pT ranges in the HR. Results for triggers in 4-5 GeV/c.'
 keywords:
   - {name: reactions, values: [AU AU --> CHARGED X]}
   - {name: cmenergies, values: [200.0]}
