@@ -1,0 +1,73 @@
+comment: |
+  BNL-RHIC. In 2015, the PHENIX collaboration has measured very forward ($\eta > 6.8$) single spin asymmetries of inclusive neutrons in transversely polarized proton-proton and proton-nucleus collisions at a center of mass energy of 200 GeV. A previous publication from this data set concentrated on the nuclear dependence of such asymmetries. %Also proton-proton results at the same and different collision energies exist, but all provided transverse momentum integrated results over the acceptance of the forward neutron detectors. In this measurement the explicit transverse momentum dependence of inclusive neutron single spin asymmetries for proton-proton collisions is extracted using a bootstrapping unfolding technique on the transverse momenta. This explicit transverse momentum dependence will help improve the understanding of the mechanisms that create these asymmetries.
+additional_resources:
+  - {location: fig1a.png, description: Image file}
+  - {location: fig1b.png, description: Image file}
+  - {location: fig1c.png, description: Image file}
+  - {location: fig2.png, description: Image file}
+  - {location: fig3.png, description: Image file}
+  - {location: "https://www.phenix.bnl.gov/phenix/WWW/info/data/ppg133_data.html", description: "web page with data points"}
+---
+name: "Figure 1a"
+description: 'Measured and unfolded forward neutron single spin asymmetries using 3rd order polynomial parameterization in unfolding'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_0.yaml
+---
+name: "Figure 1b"
+description: 'Measured and unfolded forward neutron single spin asymmetries using a Power law parameterization in unfolding'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_1.yaml
+---
+name: "Figure 1c"
+description: 'Measured and unfolded forward neutron single spin asymmetries using an exponential parameterization in unfolding'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_2.yaml
+--- 
+name: "Figure 2a"
+description: 'Unfolded forward neutron single spin asymmetry distribution in first Pt bin'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_3.yaml
+--- 
+name: "Figure 2b"
+description: 'Unfolded forward neutron single spin asymmetry distribution in second Pt bin'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_4.yaml
+--- 
+name: "Figure 2c"
+description: 'Unfolded forward neutron single spin asymmetry distribution in third Pt bin'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_5.yaml
+--- 
+name: "Figure 2d"
+description: 'Unfolded forward neutron single spin asymmetry distribution in fourth Pt bin'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_6.yaml
+--- 
+name: "Figure 3"
+description: 'Forward neutron single spin asymmetries as a funciton of Pt'
+keywords:
+  - {name: reactions, values: [P P --> N X]}
+  - {name: observables, values: [ASYM]}
+  - {name: cmenergies, values: [200.0]}
+data_file: table_7.yaml
