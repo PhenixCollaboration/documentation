@@ -2,90 +2,110 @@ dependent_variables:
 - header: {name: Bottom electron fraction}
   values:
   - errors:
-    - asymerror: {minus: -0.000466, plus: 0.000777}
+    - asymerror: {minus: -9.28e-03, plus: 1.10e-02}
       label: Systematic Uncertainty
-    value: 0.000949
+    value: 3.99e-02
   - errors:
-    - asymerror: {minus: -0.000382, plus: 0.000644}
+    - asymerror: {minus: -1.37e-02, plus: 1.71e-02}
       label: Systematic Uncertainty
-    value: 0.000877
+    value: 6.15e-02
   - errors:
-    - asymerror: {minus: -0.000322, plus: 0.000475}
+    - asymerror: {minus: -2.06e-02, plus: 2.61e-02}
       label: Systematic Uncertainty
-    value: 0.000843
+    value: 9.41e-02
   - errors:
-    - asymerror: {minus: -0.000266, plus: 0.000332}
+    - asymerror: {minus: -3.03e-02, plus: 3.77e-02}
       label: Systematic Uncertainty
-    value: 0.000795
+    value: 1.40e-01
   - errors:
-    - asymerror: {minus: -0.000217, plus: 0.000241}
+    - asymerror: {minus: -4.29e-02, plus: 5.13e-02}
       label: Systematic Uncertainty
-    value: 0.000703
+    value: 2.01e-01
   - errors:
-    - asymerror: {minus: -0.000168, plus: 0.000163}
+    - asymerror: {minus: -5.75e-02, plus: 6.60e-02}
       label: Systematic Uncertainty
-    value: 0.000557
+    value: 2.73e-01
   - errors:
-    - asymerror: {minus: -0.000116, plus: 0.000104}
+    - asymerror: {minus: -7.27e-02, plus: 7.98e-02}
       label: Systematic Uncertainty
-    value: 0.000393
+    value: 3.49e-01
   - errors:
-    - asymerror: {minus: -6.75e-05, plus: 6.14e-05}
+    - asymerror: {minus: -8.64e-02, plus: 9.13e-02}
       label: Systematic Uncertainty
-    value: 0.000251
+    value: 4.22e-01
   - errors:
-    - asymerror: {minus: -3.67e-05, plus: 3.46e-05}
+    - asymerror: {minus: -9.66e-02, plus: 9.99e-02}
       label: Systematic Uncertainty
-    value: 0.000148
+    value: 4.84e-01
   - errors:
-    - asymerror: {minus: -1.76e-05, plus: 1.89e-05}
+    - asymerror: {minus: -1.02e-01, plus: 1.06e-01}
       label: Systematic Uncertainty
-    value: 7.89e-05
+    value: 5.32e-01
   - errors:
-    - asymerror: {minus: -6.57e-06, plus: 9.36e-06}
+    - asymerror: {minus: -1.03e-01, plus: 1.09e-01}
       label: Systematic Uncertainty
-    value: 2.76e-05
+    value: 5.64e-01
   - errors:
-    - asymerror: {minus: -2.06e-06, plus: 4.64e-06}
+    - asymerror: {minus: -1.01e-01, plus: 1.12e-01}
       label: Systematic Uncertainty
-    value: 6.56e-06
+    value: 5.81e-01
   - errors:
-    - asymerror: {minus: -1.21e-06, plus: 1.4e-06}
+    - asymerror: {minus: -9.72e-02, plus: 1.14e-01}
       label: Systematic Uncertainty
-    value: 2.26e-06
+    value: 5.89e-01
   - errors:
-    - asymerror: {minus: -9.5e-07, plus: 8.25e-07}
+    - asymerror: {minus: -9.28e-02, plus: 1.17e-01}
       label: Systematic Uncertainty
-    value: 1.02e-06
+    value: 5.87e-01
   - errors:
-    - asymerror: {minus: -2.59e-07, plus: 3.04e-07}
+    - asymerror: {minus: -8.90e-02, plus: 1.21e-01}
       label: Systematic Uncertainty
-    value: 2.59e-07
+    value: 5.79e-01
   - errors:
-    - asymerror: {minus: -2.89e-08, plus: 5.01e-08}
+    - asymerror: {minus: -8.69e-02, plus: 1.33e-01}
       label: Systematic Uncertainty
-    value: 2.9e-08
+    value: 5.57e-01
   - errors:
-    - asymerror: {minus: -2.83e-09, plus: 7.74e-09}
+    - asymerror: {minus: -9.49e-02, plus: 1.59e-01}
       label: Systematic Uncertainty
-    value: 2.83e-09
+    value: 5.13e-01
+  - errors:
+    - asymerror: {minus: -1.20e-01, plus: 1.87e-01}
+      label: Systematic Uncertainty
+    value: 4.79e-01
+  - errors:
+    - asymerror: {minus: -1.68e-01, plus: 2.16e-01}
+      label: Systematic Uncertainty
+    value: 4.71e-01
+  - errors:
+    - asymerror: {minus: -1.81e-01, plus: 2.48e-01}
+      label: Systematic Uncertainty
+    value: 4.61e-01
+  - errors:
+    - asymerror: {minus: -1.88e-01, plus: 2.81e-01}
+      label: Systematic Uncertainty
+    value: 4.36e-01
 independent_variables:
 - header: {name: '${p_{T}}$ (GeV/c)'}
   values:
-  - {high: 0.5, low: 0.0}
-  - {high: 1.0, low: 0.5}
-  - {high: 1.5, low: 1.0}
-  - {high: 2.0, low: 1.5}
-  - {high: 2.5, low: 2.0}
-  - {high: 3.0, low: 2.5}
-  - {high: 3.5, low: 3.0}
-  - {high: 4.0, low: 3.5}
-  - {high: 4.5, low: 4.0}
-  - {high: 5.0, low: 4.5}
-  - {high: 6.0, low: 5.0}
-  - {high: 7.0, low: 6.0}
-  - {high: 8.0, low: 7.0}
-  - {high: 9.0, low: 8.0}
-  - {high: 12.0, low: 9.0}
-  - {high: 15.0, low: 12.0}
-  - {high: 20.0, low: 15.0}
+  - {low: 1.00, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 2.00}
+  - {low: 2.00, high: 2.20}
+  - {low: 2.20, high: 2.40}
+  - {low: 2.40, high: 2.60}
+  - {low: 2.60, high: 2.80}
+  - {low: 2.80, high: 3.00}
+  - {low: 3.00, high: 3.20}
+  - {low: 3.20, high: 3.40}
+  - {low: 3.40, high: 3.60}
+  - {low: 3.60, high: 3.80}
+  - {low: 3.80, high: 4.00}
+  - {low: 4.00, high: 4.50}
+  - {low: 4.50, high: 5.00}
+  - {low: 5.00, high: 6.00}
+  - {low: 6.00, high: 7.00}
+  - {low: 7.00, high: 8.00}
+  - {low: 8.00, high: 9.00}
