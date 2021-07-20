@@ -9,3 +9,6 @@ Folders:
 * "prototypes" - sandbox for the development of various utilities
 * "assets" - an umbrella folder for various types of documents
 
+01/06/2021
+
+Switching to the SSH keys to access GitHub
