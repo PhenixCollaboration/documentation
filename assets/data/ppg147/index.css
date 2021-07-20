@@ -1,0 +1,29 @@
+h1 { 
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 20;
+  align: center;
+  color: #ffffff;
+  background-color: #66c;
+}
+
+h3 { 
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 14;
+  color: #ffffff;
+  background-color: #0a0;
+}
+
+ul {
+  margin-left: -10px;
+  <!-- list-style-type: circle; -->
+}
+
+ol {
+  margin-left: -10px;
+}

@@ -1,0 +1,102 @@
+=====================================================================
+10-20% 
+Average integrated RAA 
+(errors are overall normalization for RAA vs dphi_rp)
+
+<RAA> = 0.316453 stat_err 0.0164914 sys_err 0.0414276
+
+Raa vs dphi_rp (degree) -- dphi_rp values are the bin centers,
+while the y [Raa(dphi)] values are avg for bin.
+dphi_rp  Raa(dphi_rp) stat_err sys_err
+--------------------------------------
+7.5	0.382452	0.0230099	0.016077
+22.5	0.406987	0.0227485	0.0131249
+37.5	0.320985	0.0198398	0.00433294
+52.5	0.325633	0.0185495	0.00498753
+67.5	0.251872	0.0154987	0.0121915
+82.5	0.238347	0.0144753	0.0174923
+=====================================================================
+20-30% 
+Average integrated RAA 
+(errors are overall normalization for RAA vs dphi_rp)
+
+<RAA> = 0.414032 stat_err 0.0269429 sys_err 0.0561408
+
+Raa vs dphi_rp (degree) -- dphi_rp values are the bin centers,
+while the y [Raa(dphi)] values are avg for bin.
+dphi_rp  Raa(dphi_rp) stat_err sys_err
+--------------------------------------
+7.5	0.556749	0.0334364	0.0240546
+22.5	0.491145	0.0309622	0.0161034
+37.5	0.483138	0.0294893	0.00625558
+52.5	0.421091	0.0259511	0.00640412
+67.5	0.334275	0.0223668	0.0153958
+82.5	0.31225	0.0206509	0.0214612
+=====================================================================
+30-40% 
+Average integrated RAA 
+(errors are overall normalization for RAA vs dphi_rp)
+
+<RAA> = 0.531509 stat_err 0.0354031 sys_err 0.0747383
+
+Raa vs dphi_rp (degree) -- dphi_rp values are the bin centers,
+while the y [Raa(dphi)] values are avg for bin.
+dphi_rp  Raa(dphi_rp) stat_err sys_err
+--------------------------------------
+7.5	0.661224	0.0443415	0.0351004
+22.5	0.636503	0.0431263	0.0250342
+37.5	0.537568	0.038294	0.00905781
+52.5	0.548225	0.0360728	0.0101982
+67.5	0.468953	0.0326253	0.02685
+82.5	0.420867	0.0300936	0.0345815
+=====================================================================
+40-50% 
+Average integrated RAA 
+(errors are overall normalization for RAA vs dphi_rp)
+
+<RAA> = 0.648735 stat_err 0.0448404 sys_err 0.0969264
+
+Raa vs dphi_rp (degree) -- dphi_rp values are the bin centers,
+while the y [Raa(dphi)] values are avg for bin.
+dphi_rp  Raa(dphi_rp) stat_err sys_err
+--------------------------------------
+7.5	0.825814	0.0662753	0.0607814
+22.5	0.82822	0.0655347	0.0515977
+37.5	0.725902	0.0580791	0.0165205
+52.5	0.665589	0.0528795	0.0184194
+67.5	0.560518	0.0472163	0.0478367
+82.5	0.428225	0.0403659	0.0541495
+=====================================================================
+50-60% 
+Average integrated RAA 
+(errors are overall normalization for RAA vs dphi_rp)
+
+<RAA> = 0.80048 stat_err 0.0552653 sys_err 0.153612
+
+Raa vs dphi_rp (degree) -- dphi_rp values are the bin centers,
+while the y [Raa(dphi)] values are avg for bin.
+dphi_rp  Raa(dphi_rp) stat_err sys_err
+--------------------------------------
+7.5	1.01965	0.0930331	0.115334
+22.5	0.921737	0.0873838	0.0906449
+37.5	0.964066	0.084761	0.0385223
+52.5	0.652735	0.0676162	0.0254176
+67.5	0.707382	0.0665099	0.105828
+82.5	0.581847	0.0581881	0.105062
+=====================================================================
+60-70% 
+Average integrated RAA 
+(errors are overall normalization for RAA vs dphi_rp)
+
+<RAA> = 0.863815 stat_err 0.0786168 sys_err 0.248206
+
+Raa vs dphi_rp (degree) -- dphi_rp values are the bin centers,
+while the y [Raa(dphi)] values are avg for bin.
+dphi_rp  Raa(dphi_rp) stat_err sys_err
+--------------------------------------
+7.5	1.29658	0.153692	0.207653
+22.5	1.19144	0.144595	0.166072
+37.5	0.854916	0.112214	0.0486706
+52.5	0.866156	0.106056	0.0582576
+67.5	0.587651	0.075502	0.144232
+82.5	0.453097	0.0607698	0.194266

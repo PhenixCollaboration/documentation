@@ -1,0 +1,29 @@
+integrated R_AA tables
+
+
+for p_T greater than 0.3 GeV/c :
+
+Npart	R_AA			 stat. error (+)    stat error (-)     sys. error (+-)   
+14.5		1.040e+00	 	 7.636e-02    	 7.554e-02   	 3.885e-01   
+59.95	9.858e-01     	 3.903e-02    	 3.860e-02   	 2.532e-01
+140.4	9.434e-01     	 2.287e-02    	 2.260e-02   	 2.188e-01
+234.6	1.029e+00    	 2.381e-02    	 2.350e-02   	 2.429e-01
+325.2	1.091e+00    	 2.204e-02    	 2.172e-02   	 2.715e-01
+
+error from pp (+)	error from pp (-)
+2.325e-01			1.587e-01
+
+
+
+
+for p_T greater than 3.0 GeV/c :
+
+Npart	R_AA			 stat. error (+)    stat error (-)     sys. error (+-)   
+14.5          7.039e-01	         6.388e-02		 5.982e-02         2.238e-01
+59.95        8.550e-01          3.351e-02          3.247e-02         1.404e-01
+140.4	6.522e-01          1.667e-02          1.640e-02         9.092e-02
+234.6	5.400e-01          1.557e-02          1.518e-02         7.125e-02
+325.2	4.241e-01          1.166e-02          1.140e-02         5.903e-02
+
+error from pp (+)	error from pp (-)
+1.103e-01			9.038e-02

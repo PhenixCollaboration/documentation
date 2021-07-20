@@ -1,0 +1,5 @@
+charged hadron v2
+
+Au+Au data : PRC 92. 034913
+Cu+Au data : Fig.5
+Cu+Cu data : PRC 92. 034913

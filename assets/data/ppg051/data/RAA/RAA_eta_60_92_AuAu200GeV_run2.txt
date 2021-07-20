@@ -1,0 +1,14 @@
+2.70   0.732696   0.315 
+3.20   0.836821   0.211339 
+3.70   0.841476   0.207713 
+4.45   0.967237   0.270881 
+5.45   0.640831   0.415195 
+
+
+$R_{AA}(p_T)$ for $\eta$ in centrality class 60-92\%.
+Errors tabulated are point-to-point. 
+There is an additional 9.7\% type-{\bf B} systematic error
+The $T_{AA}$ normalization error common to all data points is: $\pm$28.7\%
+
+
+Comments: David d'Enterria (denterri@bnl.gov)

@@ -1,0 +1,12 @@
+---------------------------------------------------------------------------------
+Ratio of I_AAs of direct photon-hadron pairs as a function of xi
+for 5-9 GeV/c trigger photons and 0.5-7.0 GeV/c associated hadrons
+---------------------------------------------------------------------------------
+Ratio of |Dphi-pi| < pi/2 I_AA to |Dphi-pi| < pi/6 I_AA for 0-40% Au+Au/p+p
+xi     Ratio      Stat.error  Low.sys.err  High.sys.error
+0.20   3.56e-01   5.12e-01    3.93e-01     6.06e-01
+0.60   8.58e-01   3.24e-01    3.08e-02     6.71e-02
+1.00   1.96e+00   4.75e-01    1.74e-01     3.40e-01
+1.40   1.72e+00   3.09e-01    1.38e-01     2.83e-01
+1.80   1.48e+00   2.06e-01    2.17e-01     3.87e-01
+2.20   2.38e+00   1.09e+00    2.33e-01     5.03e-01

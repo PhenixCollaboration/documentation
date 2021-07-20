@@ -1,0 +1,162 @@
+close 0
+hi/del 0
+vec/del *
+vec/cre x(50) r
+vec/cre y(50) r
+vec/cre z(50) r
+vec/cre xe(50) r
+vec/cre ye(50) r
+vec/cre ze(50) r
+vec/cre x1(50) r
+vec/cre x2(50) r
+vec/cre y1(50) r
+vec/cre y2(50) r
+vec/cre ee(50) r 50*0
+opt *
+set *
+zone 2 2
+null -75 5 0.0 12.0
+exec plot cor.dat 0
+null -75 5 -0.02 0.12
+exec plot res.dat 1
+null -75 5 -0.02 0.22
+exec plot chg_cent.dat 2
+null -0.2 5.2 -0.02 0.22
+exec plot chg_pt.dat 3
+wait
+zone 2 2
+null -0.2 4.2 -0.02 0.32
+exec plot neg_pi.dat 4 4
+exec plot neg_ka.dat 4 3
+exec plot neg_pr.dat 4 2
+null -0.2 4.2 -0.02 0.32
+exec plot pos_pi.dat 4 4
+exec plot pos_ka.dat 4 3
+exec plot pos_pr.dat 4 2
+null -0.2 4.2 -0.02 0.32
+exec plot com_pi.dat 5 4
+exec plot com_ka.dat 5 3
+exec plot com_pr.dat 5 2
+null -0.1 1.7 -0.02 0.12
+exec plot scl_pi.dat 5 4
+exec plot scl_ka.dat 5 3
+exec plot scl_pr.dat 5 2
+wait
+set xwin 0.001
+set ywin 0.001
+set yval 100.0
+zone 3 2
+set xval 0.2
+null -0.2 5.2 -0.02 0.35
+set xval 100.0
+exec plot cen20_neg_ch.dat 5 3
+exec plot cen20_neg_pk.dat 5 4
+exec plot cen20_neg_pr.dat 5 2
+null -0.2 5.2 -0.02 0.35
+exec plot cen40_neg_ch.dat 5 3
+exec plot cen40_neg_pk.dat 5 4
+exec plot cen40_neg_pr.dat 5 2
+null -0.2 5.2 -0.02 0.35
+exec plot cen60_neg_ch.dat 5 3
+exec plot cen60_neg_pk.dat 5 4
+exec plot cen60_neg_pr.dat 5 2
+set xval 0.2
+set yval 0.2
+null -0.2 5.2 -0.02 0.35
+set xval 100.0
+exec plot cen20_pos_ch.dat 5 3
+exec plot cen20_pos_pk.dat 5 4
+exec plot cen20_pos_pr.dat 5 2
+null -0.2 5.2 -0.02 0.35
+exec plot cen40_pos_ch.dat 5 3
+exec plot cen40_pos_pk.dat 5 4
+exec plot cen40_pos_pr.dat 5 2
+null -0.2 5.2 -0.02 0.35
+exec plot cen60_pos_ch.dat 5 3
+exec plot cen60_pos_pk.dat 5 4
+exec plot cen60_pos_pr.dat 5 2
+return
+macro plot file id col=1
+vec/input x(1:50) 50*-1.0
+vec/input y(1:50) 50*-1.0
+vec/input z(1:50) 50*-1.0
+set hcol [col]
+set pmci [col]
+set plci [col]
+if [id]=0 then
+  vec/read x,xe,y,ye [file]
+  vscale x -1 x
+  h/err x y xe ye 50 24 0.2
+elseif [id]=1 then
+  vec/read x,xe,y,ye,z,ze [file]
+  vscale x -1 x
+  h/err x y xe ye 50 24 0.2
+  h/err x z xe ze 50 24 0.2
+elseif [id]=2 then
+  vec/read x,xe,y,ye,y1,y2 [file]
+  j=0
+  do i=1,50
+    if ([j]=0).and.(x([i])=-1) then
+      j=[i]
+    endif
+  enddo
+  j=[j]-1
+  vscale x -1 x
+  h/err x y xe ye [j] 24 0.2
+  pline [j] x y1
+  pline [j] x y2
+elseif [id]=3 then
+  vec/read x,x1,x2,y,ye,y1,y2 [file]
+  j=0
+  do i=1,50
+    if ([j]=0).and.(x([i])=-1) then
+      j=[i]
+    endif
+  enddo
+  j=[j]-1
+  h/err x y ee ye [j] 24 0.2
+  do i=1,[j]
+    xx1=x1([i])
+    xx2=x2([i])
+    yy=y([i])
+    dline [xx1] [xx2] [yy] [yy]
+  enddo
+  pline [j] x y1
+  pline [j] x y2
+elseif [id]=4 then
+  vec/read x,x1,x2,y,ye,y1,y2 [file]
+  j=0
+  do i=1,50
+    if ([j]=0).and.(x([i])=-1) then
+      j=[i]
+    endif
+  enddo
+  j=[j]-1
+* h/err x y ee ze [j] 0 0 '3'
+  h/err x y ee ye [j] 24 0.2 '1'
+  do i=1,[j]
+    xx1=x1([i])
+    xx2=x2([i])
+    yy=y([i])
+    dline [xx1] [xx2] [yy] [yy]
+  enddo
+  pline [j] x y1
+  pline [j] x y2
+elseif [id]=5 then
+  vec/read x,x1,x2,y,ye [file]
+  j=0
+  do i=1,50
+    if ([j]=0).and.(x([i])=-1) then
+      j=[i]
+    endif
+  enddo
+  j=[j]-1
+  h/err x y ee ye [j] 24 0.2 '1'
+  do i=1,[j]
+    xx1=x1([i])
+    xx2=x2([i])
+    yy=y([i])
+    dline [xx1] [xx2] [yy] [yy]
+  enddo
+endif
+return

@@ -1,0 +1,49 @@
+=======================================
+Data Table for Figure 3
+=======================================
+* Note - errx is just the arbirary drawn box width
+* Note - PHENIX p+p and PHOBOS p+p were offset in x to see the points clearly,
+*        and in the values below they are at the exact N_qp value.
+
+3He+Au @ 200 GeV:   N_qp , dNch/deta / (N_qp/2) , errx (really zero), Sys. Error Y
+x[0]=37.5, y[0]=1.22094, ex[0]=0.35, ey[0]=0.12852
+x[1]=34.4, y[1]=1.21158, ex[1]=0.35, ey[1]=0.11448
+x[2]=30.6, y[2]=1.23228, ex[2]=0.35, ey[2]=0.11736
+x[3]=26.6, y[3]=1.25, ex[3]=0.35, ey[3]=0.11
+x[4]=21.9, y[4]=1.28778, ex[4]=0.35, ey[4]=0.11154
+x[5]=17.4, y[5]=1.3158, ex[5]=0.35, ey[5]=0.102
+x[6]=13.2, y[6]=1.34772, ex[6]=0.35, ey[6]=0.12252
+x[7]=9.7, y[7]=1.36412, ex[7]=0.35, ey[7]=0.11198
+
+d+Au @ 200 GeV:   N_qp , dNch/deta / (N_qp/2) , errx (really zero), Sys. Error Y
+x[0]=27.2, y[0]=1.37241, ex[0]=0.35, ey[0]=0.15249
+x[1]=24.7, y[1]=1.34134, ex[1]=0.35, ey[1]=0.1407
+x[2]=22.9, y[2]=1.3041, ex[2]=0.35, ey[2]=0.13524
+x[3]=20, y[3]=1.31208, ex[3]=0.35, ey[3]=0.12922
+x[4]=18, y[4]=1.27125, ex[4]=0.35, ey[4]=0.12204
+x[5]=15.3, y[5]=1.26636, ex[5]=0.35, ey[5]=0.11418
+x[6]=12.7, y[6]=1.24844, ex[6]=0.35, ey[6]=0.1058
+x[7]=10.4, y[7]=1.22416, ex[7]=0.35, ey[7]=0.1093
+
+p+Au @ 200 GeV:   N_qp , dNch/deta / (N_qp/2) , errx (really zero), Sys. Error Y
+x[0]=17.1, y[0]=1.38484, ex[0]=0.35, ey[0]=0.206337
+x[1]=15.9, y[1]=1.2367, ex[1]=0.35, ey[1]=0.184265
+x[2]=14.1, y[2]=1.28645, ex[2]=0.35, ey[2]=0.191677
+x[3]=12.1, y[3]=1.27967, ex[3]=0.35, ey[3]=0.190666
+x[4]=9.4, y[4]=1.23702, ex[4]=0.35, ey[4]=0.184312
+x[5]=6.5, y[5]=1.10769, ex[5]=0.35, ey[5]=0.165042
+
+p+Al @ 200 GeV:   N_qp , dNch/deta / (N_qp/2) , errx (really zero), Sys. Error Y
+x[0]=8.5, y[0]=1.29176, ex[0]=0.35, ey[0]=0.192469
+x[1]=7.2, y[1]=1.4445, ex[1]=0.35, ey[1]=0.215226
+x[2]=6.4, y[2]=1.51987, ex[2]=0.35, ey[2]=0.226456
+x[3]=5.5, y[3]=1.45309, ex[3]=0.35, ey[3]=0.216506
+x[4]=4.1, y[4]=1.5618, ex[4]=0.35, ey[4]=0.232704
+
+p+p (PHENIX) @ 200 GeV:   N_qp , dNch/deta / (N_qp/2) , errx (really zero), Sys. Error Y
+x[0]=2.99, y[0]=1.59197, ex[0]=0, ey[0]=0.113712
+
+p+p (PHOBOS) @ 200 GeV:   N_qp , dNch/deta / (N_qp/2) , exl, exh (really zero), Sys. Error Ylow, Sys. Error Yhigh
+x[0]=2.99, y[0]=1.50502, exl[0]=0, exh[0]=0, eyl[0]=0.35, eyh[0]=0.167224
+
+Script done on Mon 26 Nov 2018 07:57:25 PM STD

@@ -1,0 +1,27 @@
+The dashed line shows b_0 at 0.988 on the left axis and at 0 on the right axis.
+The full line shows b_0*(1+2*v_2*cos(2*DeltaPhi)) where b_0 = 0.988 and v_2 = 0.0018.
+
+
+
+In figure: the filled black squares show the measured correlation function C(DeltaPhi).
+In table below: the first row lists the DeltaPhi values (in radians), the second row lists
+the C(DeltaPhi) values, and the third row lists the statistical errors:
+
+ 0.0785 0.2356 0.3926 0.5497 0.7068 0.8639 1.0210 1.1781 1.3351 1.4922 1.6493 1.8064 1.9635 2.1205 2.2776 2.4347 2.5918 2.7488 2.9059 3.0630
+ 1.0182 1.0124 1.0082 1.0009 0.9941 0.9891 0.9861 0.9852 0.9882 0.9918 0.9917 0.9950 0.9978 0.9972 0.9978 0.9989 0.9981 0.9986 0.9985 0.9981
+ 0.0004 0.0004 0.0004 0.0004 0.0005 0.0005 0.0006 0.0006 0.0007 0.0008 0.0008 0.0007 0.0006 0.0006 0.0005 0.0005 0.0004 0.0004 0.0004 0.0004
+
+
+
+In figure: the filled red circles show the dijet correlation function J(DeltaPhi) and the
+red boxes around them the point-to-point systematic errors.
+In table below: the first row lists the DeltaPhi values, the second row lists the J(DeltaPhi)
+values, the third row lists the statistical errors, the fourth row lists the point-to-point
+systematic errors from +1 sigma v_2 variation, and the fifth row lists the point-to-point
+systematic errors from -1 sigma v_2 variation:
+
+ 0.0785 0.2356 0.3926 0.5497 0.7068 0.8639 1.0210 1.1781 1.3351 1.4922 1.6493 1.8064 1.9635 2.1205 2.2776 2.4347 2.5918 2.7488 2.9059 3.0630
+ 0.0263 0.0208 0.0172 0.0108 0.0052 0.0012-0.0006-0.0007 0.0029 0.0070 0.0068 0.0098 0.0119 0.0104 0.0100 0.0099 0.0080 0.0077 0.0069 0.0061
+ 0.0004 0.0004 0.0004 0.0004 0.0005 0.0005 0.0006 0.0006 0.0007 0.0008 0.0008 0.0007 0.0006 0.0006 0.0005 0.0005 0.0004 0.0004 0.0004 0.0004
+ 0.0009 0.0008 0.0007 0.0006 0.0004 0.0002 0.0000-0.0001-0.0002-0.0003-0.0003-0.0003-0.0001 0.0000 0.0002 0.0004 0.0006 0.0007 0.0008 0.0009
+-0.0009-0.0008-0.0007-0.0006-0.0004-0.0002 0.0000 0.0001 0.0002 0.0003 0.0003 0.0003 0.0002 0.0000-0.0002-0.0004-0.0006-0.0007-0.0009-0.0009

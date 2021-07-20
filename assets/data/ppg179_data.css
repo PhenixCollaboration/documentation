@@ -1,0 +1,62 @@
+h1 { 
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 25;
+  align: center;
+  color: #ffffff;
+  text-align: center;
+  /*background-color: #66c;*/
+  background-color: #8B0000;
+/*  width: 650px;*/
+}
+
+h3{ 
+  padding-left: 10px;
+  /*  padding-top: 3px;
+  padding-bottom: 3px;*/
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 17;
+  color: #ffffff;
+  background-color: #000080;
+  /*background-color: #0a0;*/
+  width: 900px;
+}
+
+h4{ 
+  padding-left: 10px;
+  padding-top: 3px;
+/*  padding-bottom: 3px;*/
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 17;
+  text-align: center;
+  color: #ffffff;
+  background-color: #006400;
+  /*background-color: #0a0;*/
+  width: 700px;
+}
+
+ul {
+  margin-left: -10px;
+  list-style-type: circle;
+  width: 600px;
+}
+
+a {
+  text-decoration: none; 
+}
+
+a:hover, a:active { 
+  text-decoration: underline; 
+  color: #9685BA;
+}
+
+h3 a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+h3 a:hover, a:active {
+  color: #ffa;
+}

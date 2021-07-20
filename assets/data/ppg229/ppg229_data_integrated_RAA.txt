@@ -1,0 +1,63 @@
+////////////////////////////////////////////
+//////                                 ////
+/////  Meson integrated RAA (Fig. 7)  ////
+////                                 ////
+////////////////////////////////////////
+
+
+Table 4.1.1. pi0 meson integrated RAA (Glauber 1) vs. Npart in U+U at 192 GeV. Integration range: pT > 5 (GeV/c)
+
+
+Npart  Centrality         <RAA>  Stat. + Type A Unc.  Type B + C Unc.
+ 17.8      60-80%  6.113370e-01         1.120240e-02     1.751143e-01  
+ 64.8      40-60%  4.776305e-01         5.030848e-03     1.017871e-01  
+159.0      20-40%  3.251139e-01         2.999358e-03     6.290201e-02  
+329.5       0-20%  1.903511e-01         1.642131e-03     3.712999e-02  
+
+
+Table 4.1.2. pi0 meson integrated RAA (Glauber 2) vs. Npart in U+U at 192 GeV. Integration range: pT > 5 (GeV/c)
+
+
+Npart  Centrality         <RAA>  Stat. + Type A Unc.  Type B + C Unc.
+ 18.2      60-80%  5.332940e-01         9.772303e-03     1.468318e-01  
+ 65.8      40-60%  4.159654e-01         4.381334e-03     8.794065e-02  
+161.0      20-40%  2.898387e-01         2.673925e-03     5.997773e-02  
+330.5       0-20%  1.796862e-01         1.550127e-03     3.691879e-02  
+
+
+Table 4.2.1. eta meson integrated RAA (Glauber 1) vs. Npart in U+U at 192 GeV. Integration range: pT > 5 (GeV/c)
+
+
+Npart  Centrality         <RAA>  Stat. + Type A Unc.  Type B + C Unc.
+ 17.8      60-80%  6.613650e-01         6.086115e-02     1.944282e-01  
+ 64.8      40-60%  5.203340e-01         3.045647e-02     1.151455e-01  
+159.0      20-40%  3.476307e-01         1.861758e-02     6.985889e-02  
+329.5       0-20%  2.145569e-01         1.479256e-02     4.361220e-02  
+
+
+Table 4.2.2. eta meson integrated RAA (Glauber 2) vs. Npart in U+U at 192 GeV. Integration range: pT > 5 (GeV/c)
+
+
+Npart  Centrality         <RAA>  Stat. + Type A Unc.  Type B + C Unc.
+ 18.2      60-80%  5.850537e-01         5.383870e-02     1.663009e-01  
+ 65.8      40-60%  4.532457e-01         2.652962e-02     9.960085e-02  
+161.0      20-40%  3.108320e-01         1.664680e-02     6.600849e-02  
+330.5       0-20%  2.006882e-01         1.383639e-02     4.182932e-02  
+
+
+Table 4.3.1. Ks meson integrated RAA (Glauber 1) vs. Npart in U+U at 192 GeV. Integration range: pT > 6 (GeV/c)
+
+
+Npart  Centrality         <RAA>  Stat. + Type A Unc.  Type B + C Unc.
+ 41.3      40-80%  5.232014e-01         1.062463e-01     1.830111e-01  
+159.0      20-40%  3.721184e-01         7.418812e-02     1.270430e-01  
+329.5       0-20%  2.502824e-01         6.983765e-02     8.961913e-02  
+
+
+Table 4.3.2. Ks meson integrated RAA (Glauber 2) vs. Npart in U+U at 192 GeV. Integration range: pT > 6 (GeV/c)
+
+
+Npart  Centrality         <RAA>  Stat. + Type A Unc.  Type B + C Unc.
+ 42.0      40-80%  4.568226e-01         9.276675e-02     1.589891e-01  
+161.0      20-40%  3.327275e-01         6.633488e-02     1.158687e-01  
+330.5       0-20%  2.341044e-01         6.532342e-02     8.451825e-02

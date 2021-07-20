@@ -1,0 +1,18 @@
+Cu+Cu J/psi data at 200 GeV
+arXiv:0801.0220  Figure 2
+
+Mean p_T squared for rapidity |y| < 0.35
+
+      N_part     <pT^2>    Uncorrelated pt-to-pt plus   Uncorrelated pt-to-pt minus     Correlated syst
+      85.9      4.2387                0.2825                    0.2826                    0.1377
+      45.2      4.2642                0.2705                    0.2706                    0.1318
+      21.2      4.0357                0.3811                    0.3807                    0.1628
+
+Mean p_T squared for rapidity 1.2 < |y| < 2.2
+
+      N_part     <pT^2>         Uncorrelated pt-to-pt     Correlated syst
+      85.9      3.6672                0.1604                    0.2482
+      45.2      3.7136                0.1505                    0.2218
+      21.2      3.6739                0.1765                    0.2766
+       6.4      3.6050                0.2576                    0.2618
+

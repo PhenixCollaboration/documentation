@@ -1,0 +1,122 @@
+Data points from figure 5 of PHENIX paper #152:
+
+"Quadrupole anisotropy in dihadron azimuthal correlations in central
+d+Au collisions at sqrt(s_NN)=200 GeV"
+
+Preprint: arXiv:1303.1794
+
+x: dN_{ch} / d\eta
+y: v_{2} / \epsilon
+
+No uncertainties on x were assigned.
+Uncertainties are on y are statistical unless otherwise noted.
+
+PHENIX d+Au @ 200 GeV
+epsilon_2 from point-like centers
+x[0]=18.2, y[0]=0.261905, ex[0]=0, ey[0]=0.0395238 (stat) ey[0]=0.0401587 (sys)
+
+epsilon_2 from Gaussians, sigma = 0.4 fm
+x[0]=18.2, y[0]=0.307836
+
+epsilon_2 from disks, R = 1 fm
+x[0]=18.2, y[0]=0.335366
+
+
+PHENIX Au+Au @ 200 GeV
+x values from Phys. Rev. C 71, 034908 (2005)
+y values from Phys. Rev. C 82, 034910 (2010)
+
+central values, epsilon_2 determined from point-like centers
+
+x[0]=60, y[0]=0.335, ex[0]=0, ey[0]=0
+x[1]=95.3, y[1]=0.371, ex[1]=0, ey[1]=0
+x[2]=124, y[2]=0.395, ex[2]=0, ey[2]=0
+x[3]=156, y[3]=0.416, ex[3]=0, ey[3]=0
+x[4]=197, y[4]=0.435, ex[4]=0, ey[4]=0
+x[5]=246, y[5]=0.453, ex[5]=0, ey[5]=0
+x[6]=302, y[6]=0.471, ex[6]=0, ey[6]=0
+x[7]=372, y[7]=0.487, ex[7]=0, ey[7]=0
+x[8]=457, y[8]=0.503, ex[8]=0, ey[8]=0
+x[9]=560, y[9]=0.519, ex[9]=0, ey[9]=0
+x[10]=687, y[10]=0.525, ex[10]=0, ey[10]=0
+
+systematic variation, epsilon_2 determined from Gaussians with sigma = 0.4 fm
+x[0]=60, y[0]=0.353019
+x[1]=95.3, y[1]=0.3854
+x[2]=124, y[2]=0.41096
+x[3]=156, y[3]=0.430222
+x[4]=197, y[4]=0.4495
+x[5]=246, y[5]=0.468951
+x[6]=302, y[6]=0.485112
+x[7]=372, y[7]=0.500045
+x[8]=457, y[8]=0.513767
+x[9]=560, y[9]=0.528767
+x[10]=687, y[10]=0.537097
+
+systematic variation, epsilon_2 determined from disks R = 1 fm
+
+x[0]=60, y[0]=0.364378
+x[1]=95.3, y[1]=0.399066
+x[2]=124, y[2]=0.421606
+x[3]=156, y[3]=0.440257
+x[4]=197, y[4]=0.458673
+x[5]=246, y[5]=0.477355
+x[6]=302, y[6]=0.49437
+x[7]=372, y[7]=0.509136
+x[8]=457, y[8]=0.522504
+x[9]=560, y[9]=0.533028
+x[10]=687, y[10]=0.540835
+
+
+CMS Pb+Pb @ 5.02 TeV - EP method
+x values from 10.1007/JHEP08(2011)141
+y values from Phys. Rev. C 87, 014902 (2013)
+
+x[0]=1612, y[0]=0.590946, ex[0]=0, ey[0]=0
+x[1]=1313, y[1]=0.662162, ex[1]=0, ey[1]=0
+x[2]=1082, y[2]=0.635195, ex[2]=0, ey[2]=0
+x[3]=893.9, y[3]=0.595505, ex[3]=0, ey[3]=0
+x[4]=731.6, y[4]=0.56584, ex[4]=0, ey[4]=0
+x[5]=596.8, y[5]=0.535978, ex[5]=0, ey[5]=0
+x[6]=482.3, y[6]=0.509263, ex[6]=0, ey[6]=0
+x[7]=383.9, y[7]=0.482254, ex[7]=0, ey[7]=0
+x[8]=266.45, y[8]=0.441367, ex[8]=0, ey[8]=0
+x[9]=153.2, y[9]=0.378538, ex[9]=0, ey[9]=0
+x[10]=79.485, y[10]=0.308085, ex[10]=0, ey[10]=0
+x[11]=36.29, y[11]=0.233857, ex[11]=0, ey[11]=0
+
+
+CMS Pb+Pb @ 5.02 TeV - 2-particle cumulant method
+x values from 10.1007/JHEP08(2011)141
+y values from Phys. Rev. C 87, 014902 (2013)
+
+x[0]=1612, y[0]=0.645238, ex[0]=0, ey[0]=0.000951458
+x[1]=1313, y[1]=0.664062, ex[1]=0, ey[1]=0.00103378
+x[2]=1082, y[2]=0.637714, ex[2]=0, ey[2]=0.00136919
+x[3]=893.9, y[3]=0.609132, ex[3]=0, ey[3]=0.00128305
+x[4]=731.6, y[4]=0.579008, ex[4]=0, ey[4]=0.00108154
+x[5]=596.8, y[5]=0.551656, ex[5]=0, ey[5]=0.00101947
+x[6]=482.3, y[6]=0.528319, ex[6]=0, ey[6]=0.000843308
+x[7]=383.9, y[7]=0.501333, ex[7]=0, ey[7]=0.000661371
+x[8]=266.45, y[8]=0.457552, ex[8]=0, ey[8]=0.000504903
+x[9]=153.2, y[9]=0.401337, ex[9]=0, ey[9]=0.000334644
+x[10]=79.485, y[10]=0.34475, ex[10]=0, ey[10]=0.000259707
+x[11]=36.29, y[11]=0.317372, ex[11]=0, ey[11]=0.000334036
+
+
+ATLAS p+Pb @ 5.02 TeV - s_2
+x values estimated from HIJING
+y values from http://arxiv.org/abs/1212.5198v2
+
+x[0]=37.9, y[0]=0.296667, ex[0]=0, ey[0]=0.00790476
+x[1]=31.7, y[1]=0.263636, ex[1]=0, ey[1]=0.00776786
+x[2]=22.3, y[2]=0.176316, ex[2]=0, ey[2]=0.00526316
+
+
+ALICE p+Pb @ 5.02 TeV - v_2
+x values estimated from HIJING
+y values from Physics Letters B 719 (2013) 29–41
+
+x[0]=29.2, y[0]=0.284848, exl[0]=0, exh[0]=0, eyl[0]=0.0333333, eyh[0]=0.0454545
+x[1]=20, y[1]=0.211, exl[1]=0, exh[1]=0, eyl[1]=0.03475, eyh[1]=0.041
+x[2]=12.8, y[2]=0.1376, exl[2]=0, exh[2]=0, eyl[2]=0.023, eyh[2]=0.0312

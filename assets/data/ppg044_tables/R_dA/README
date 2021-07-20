@@ -1,0 +1,14 @@
+
+------------------------
+
+The columns in the table include the following information:
+
+pT ratio Total_error  Stat_error Systematic_error_B Systematic_error_C 
+
+------------------------
+
+The normalization uncertainty on the p+p reference of 9.7 % is not included here
+
+Systematic_error_B can vary with pT and is plotted as boxes around the data points
+Systematic_error_C is an overall scaling error of T_AB
+
