@@ -1,0 +1,86 @@
+PHENIX 200 GeV dAu and pp J/Psi production - 12 August 2005
+===========================================================
+
+Results from the 2003 dAu and pp run for J/Psi -> e+ e-
+(PHENIX paper nucl-ex/0507032)
+
+Additional overall normalization uncertainties are not included below, these are:
+  RdAu - 12%
+  sigpp - 10%
+  sigdAu - 6%
+  alpha - 0.02
+
+* stat: statistical uncertainty
+* sys: systematic error
+* lum+bias: 
+* in these tables for di-electrons, the systematic errors do not include the stat error,
+   each is quoted separately (un-like in the tables for di-muons)
+
+One point at mid-rapidity (y=0)
+===============================
+* ncoll = 7.58 +/- 0.3 for dAu
+* cross sections are dsig/dy
+* Ninv = BR*dN/dy
+                                    BR*                      pp       dAu
+                                   sigpp      sigdAu        Ninv    Ninv/ncoll
+   <y>           RdAu   alpha       (nb)        (nb)      (x10^-6)   (x10^-6)
+   ---           ----   -----      ------      ------      ------    -------
+    0            0.95   0.99        36.5       13470        0.86      0.79
+         stat    0.08   0.01         4.0        1085        0.10      0.06
+         sys     0.07   0.01         3.8        1560        0.09      0.09
+
+ 
+Centrality dependence at y=0
+============================
+* Ninv = BR*dN/dy
+                                  dAu
+                               Ninv/ncoll
+ ncoll           RdAu   alpha   (x10^-6)
+ -----           ----   -----  ---------
+ 15.37 +/- 1.0   0.80   0.96     0.69
+         stat    0.11   0.03     0.10
+         sys     0.07   0.02     0.08
+
+ 10.63 +/- 0.7   0.77   0.96     0.66
+                 0.12   0.03     0.11
+                 0.07   0.02     0.08
+
+  6.95 +/- 0.6   1.06   1.01     0.91
+                 0.16   0.03     0.14
+                 0.11   0.02     0.11
+
+  3.07 +/- 0.3   1.11   1.02     0.95
+                 0.18   0.03     0.16
+                 0.13   0.02     0.11
+
+
+pT dependence at y=0
+====================
+* inv cross sections are 1/(2*pi*pT)*dsig^2/dpTdy
+
+                                       inv         inv
+                                      sigpp       sigdAu
+    pT           RdAu      alpha     (nb/GeV^2) (nb/GeV^2)
+   ---           ----      -----      ------     --------
+   0.5           1.01      1.00       3.58       1432.9
+         stat    0.23      0.04       0.68        165.6
+         sys     0.16      0.03       0.37        164.8
+
+   1.5           0.85      0.97       1.53        503.7
+                 0.18      0.04       0.26         70.3
+                 0.14      0.03       0.16         57.9
+
+   2.5           1.41      1.06       0.45        251.4
+                 0.42      0.06       0.11         39.2
+                 0.23      0.03       0.05         28.9
+
+   3.5           0.046     0.48       0.18          2.8
+         stat    0.010     0.05       0.30
+         90% CL  [0,0.40] [-inf,0.85] 0.07          90% CL [0,28.8], 1 sigma [0,17.7]
+        1 sigma  [0,0.25] [-inf,0.77] 0.02          0.3
+
+   4.5           0.55    0.90       0.07           15.9
+                 0.38    0.20       0.04            7.5
+                 0.09    0.03       0.01            1.8
+
+

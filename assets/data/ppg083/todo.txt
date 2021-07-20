@@ -1,0 +1,9 @@
+I had a discussion with John Chen about eta correction. He found out my head yield for deta projected is about 40% higher than that directly extracted from 1D correlation, while in the shoulder region it is factor of 2. I think this is due to physics (assuming v2 independent of eta maybe wrong).
+
+Also for eta correction, the phase space one should divide by is the single particle space, i.e. 0.7 for eta and 2pi for phi. The acceptance even in ideal detector case should be a triangle function nomalized to 1 for deta=0. For phi direction it is a trangle in 4pi, but when folded back to 2pi it becomes flat. 
+
+
+Note I found since taxi 34 (Jan 2007) there is a errro introduced for bin 10 associated pt 1-2 GeV (was mistakenly written as 1-2.3 GeV in the code). I have fixed that, but not reflected in the paper
+
+Also the figure used in publication (the summary of per-trigger yield plot in the very end of the paper) The 5-10x5-10 GeV bin was corresponding to bin 13 which has the 2.2 sigma emcal matching cut. The data analysis use bin 14 (1.5 sigma cut). So this only affects the last few plots in the data.
+For the final data quoted for the correlation funciton, we use the bin 13. to be consistent with the figure.

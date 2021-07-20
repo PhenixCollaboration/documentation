@@ -1,0 +1,83 @@
+May 10. Jiangyong Jia
+
+
+o  nnref.txt contains the N + N reference from Analysis note 193.
+
+  the reference is for h^{+} + h^{-}, it is parameterized as:
+  double axelfunpaper(double *x,double *par){
+    double y1,y2,sc;
+    // sc = 1.587;
+    sc = 1.581;
+    y1 = 2*386/42.2/pow(1+x[0]/1.219,9.99);
+    y2 =1;
+    if(x[0]<1.586){
+     y2 = (1.581-0.28*(1.586-x[0])*(1.586-x[0]))/1.581;
+    }
+    double fitted = y1*y2*sc;
+    return fitted;
+  }
+  This function is effective a 1/(2\pi p_{T})dN/dp_{T}d\eta. 
+  and can be directly used to derive the Raa.
+  In note 193, the author also gives an upper and lower band which bracket the 
+  systematic error on the referece.
+
+  the upper band can be calculated as:
+  double fun1(double *x, double *par){
+   double tmp1 = 1.151-0.00409*x[0]-0.00174*x[0]*x[0]+0.000383*x[0]*x[0]*x[0];
+   double tmp2 = sqrt((tmp1-1)*(tmp1-1)-0.104*0.104-0.05*0.05);
+   double tmp3 = sqrt(tmp2*tmp2+0.1*0.1/1.7/1.7);
+   v[0] = tmp2;//fit to pi0
+   v[1] = 0.1/1.7;//h/pi
+   v[2] = sqrt(tmp3*tmp3+0.104*0.104);//total error
+   return tmp3;
+ }
+
+  the lower band can be calculated as:
+ double fun2(double *x, double *par){
+  double tmp1 = 0.894-0.00368*x[0]+0.00059*x[0]*x[0]-0.000112*x[0]*x[0]*x[0];
+  double tmp2 = sqrt((1-1/tmp1)*(1-1/tmp1)-0.104*0.104-0.05*0.05);
+  double tmp3;
+  if(x[0]>2.866){
+    tmp3 = 0.1;
+  }else if(x[0]>1.586){
+    double a = 1.581/
+      (1.437-0.091*(2.866-x[0])*(2.866-x[0]));
+    tmp3 = 1-1/a;
+  }else{
+    double a = (1.581-0.28*(1.586-x[0])*(1.586-x[0]))/
+      (1.437-0.091*(2.866-x[0])*(2.866-x[0]));
+    tmp3 = 1-1/a;
+  }
+  double tmp = sqrt(tmp2*tmp2+tmp3*tmp3/1.7/1.7);
+  v[0] = tmp2;
+  v[1] = tmp3/1.7;
+  v[2] = sqrt(tmp*tmp+0.104*0.104);
+  return tmp;
+ }
+
+  the resulting reference is in nnref.txt
+  pT    is the transverse momentum.
+  yield is reference cross section divided by 42.2. Such that it corresponds to
+  (h^{+} + h^{-})/2 spectra per event.
+  ppnorm is the 9.6%\oplus4% error on pp references
+  fitlow_e/fitup_e is the lower/upper error band in percentage for the fit on pp pi0 data and taken out the 5% point to point error
+  hpilow_e/hpiup_e is the lower/upper error band on percentage for the h/pi ratio.(we have divide by 1.7 to get 1 sigma error
+  low_e/up_e is lower/upper total error band
+
+o Raa_x_x.txt is Raa for charged hadron for various centrality.
+  from left to right, the columes are:
+  1). pT
+  2). Raa
+  3). statistical error from AuAu
+  4). Upper bound of the systematic error in percentage
+  5). Lower bound of the systematic error in percentage
+    (note: the error includes the N+N reference error and AuAu systmatic errors 
+     and occupancy error added in quadrature) 
+  6). Error from pp parametrization that is not pT dependendent. 
+     This error is not included in the calculation of 4) and 5).
+  7). Error on number of binary collisions.
+
+o.  Raapi0_x_x.txt is the Raa used from pi0 analysis.
+   I think David already take out the 10.6 nomalization error from pp.
+
+

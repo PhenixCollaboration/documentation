@@ -1,0 +1,96 @@
+PHENIX 200 GeV dAu and pp J/Psi production - 12 August 2005
+===========================================================
+
+Results from the 2003 dAu and pp run for J/Psi -> mu+ mu-
+(PHENIX paper nucl-ex/0507032)
+
+Additional overall normalization uncertainties are not included below, but are:
+  alpha - 0.02
+  RdAu - 12%
+  sigpp - 10%
+  sigdAu - 6%
+ 
+* stat: statistical uncertainty
+* pt2pt: systematic between points in the same arm
+* arm2arm: systematic between the two muon arms
+* first error is +side, second is -side
+* errors are acummulative, i.e. systematic errors include statistical errors
+
+pT Dependence
+=============
+* inv cross sections are 1/(2*pi*pT)*dsig^2/dpTdy
+* avg sigpp is the average of the two muon arms for pp (where cross section
+  should be symmetric around y=0)
+                                    inv     inv      avg inv
+                                   sigpp   sigdAu     sigpp
+                <pt>  alpha  RdAu   (nb)    (nb)      (nb)
+                ---  -----  -----  -----  --------   ------
+south           0.5  0.952  0.751  4.012  1008.534    3.407
+      stat           0.015  0.093  0.468    95.485    0.269
+      pt2pt          0.017  0.103  0.528   129.186    0.308
+      pt2pt          0.017  0.104  0.528   130.190    0.308
+      arm2arm        0.019  0.116  0.646   159.488    0.396
+      arm2arm        0.021  0.123  0.700   173.994    0.396
+ 
+                1.5  1.028  1.183  1.137   506.871    1.087
+      stat           0.021  0.126  0.169   30.587     0.096
+      pt2pt          0.024  0.146  0.183   53.367     0.107
+      pt2pt          0.025  0.147  0.183   53.980     0.107
+      arm2arm        0.028  0.167  0.211   71.116     0.134
+      arm2arm        0.030  0.179  0.224   79.243     0.144
+
+                2.5  1.172  2.798  0.161  202.639     0.184
+      stat           0.107  0.638  0.062   20.386     0.038
+      pt2pt          0.111  0.661  0.063   26.856     0.039
+      pt2pt          0.111  0.663  0.063   27.051     0.039
+      arm2arm        0.115  0.688  0.065   32.778     0.041
+      arm2arm        0.118  0.705  0.066   35.633     0.042
+
+                3.5  1.101  1.823  0.077   35.607     0.050
+      stat           0.105  0.630  0.033    7.270     0.014
+      pt2pt          0.107  0.640  0.033    7.892     0.014
+      pt2pt          0.107  0.641  0.033    7.913     0.014
+      arm2arm        0.109  0.652  0.034    8.555     0.015
+      arm2arm        0.110  0.659  0.034    8.901     0.015
+
+                4.5  1.214  3.588  0.012   11.380     0.008
+      stat           0.372  2.221  0.012    2.859     0.005
+      pt2pt          0.373  2.232  0.012    3.023     0.005
+      pt2pt          0.374  2.232  0.012    3.028     0.005
+      arm2arm        0.376  2.245  0.012    3.202     0.005
+      arm2arm        0.377  2.254  0.012    3.297     0.005
+
+north           0.5  0.921  0.624  3.108  838.248
+      stat           0.011  0.064  0.329   53.721
+      pt2pt          0.011  0.065  0.379   76.516
+      pt2pt          0.011  0.065  0.379   76.534
+      arm2arm        0.014  0.084  0.501  116.851
+      arm2arm        0.015  0.090  0.543  129.688
+
+                1.5  0.949  0.738  1.064  315.867
+      stat           0.013  0.080  0.116   19.980
+      pt2pt          0.014  0.082  0.133   28.649
+      pt2pt          0.014  0.082  0.133   28.656
+      arm2arm        0.017  0.103  0.174   43.911
+      arm2arm        0.018  0.110  0.188   48.760
+
+                2.5  1.069  1.508  0.197  109.192
+      stat           0.058  0.345  0.047   11.112
+      pt2pt          0.058  0.347  0.049   13.185
+      pt2pt          0.058  0.347  0.049   13.187
+      arm2arm        0.062  0.369  0.053   17.498
+      arm2arm        0.062  0.378  0.055   18.971
+
+               3.5   1.033  1.221  0.044   23.837
+      stat           0.068  0.404  0.015    4.267
+      pt2pt          0.068  0.405  0.015    4.540
+      pt2pt          0.068  0.405  0.015    4.540
+      arm2arm        0.070  0.418  0.016    5.188
+      arm2arm        0.070  0.423  0.016    5.429
+
+               4.5   1.028  1.182  0.007    3.748
+      stat           0.139  0.831  0.005    1.566
+      pt2pt          0.139  0.831  0.005    1.585
+      pt2pt          0.139  0.831  0.005    1.585
+      arm2arm        0.140  0.837  0.005    1.633
+      arm2arm        0.141  0.840  0.005    1.652

@@ -1,0 +1,13 @@
+Mid rapidity d+Au ->e+e- J/psi invariant yields at sqrt(s)=200 GeV
+===================================================================
+(All uncertainties are absolute. The sys. A uncertainty includes
+both the statistical uncertainty and the point-to-point uncorrelated
+systematic)
+
+Minimum bias Invariant yield vs rapidity:
+===================================================================
+rapidity    B_ll dN/dy/Ncoll        Type A        Type B     Type C
+
+-0.3         8.93e-07               2.2e-08      6.0e-08    3.1e-08
++0.0         8.30e-07               1.8e-08      5.6e-08    2.8e-08
++0.3         8.61e-07               2.2e-08      5.8e-08    2.9e-08

@@ -1,0 +1,28 @@
+Data tables for the PHENIX paper
+
+"Onset of $\pi^0$ Suppression Studied in Cu+Cu collisions at
+$\sqrt{s_\mathrm{NN}}$ = 22.4, 62.4, and 200~GeV"
+
+arXiv:0801.4555
+
+The data points for each figure can be found in the
+file(s) Fig*.tex. 
+
+In addition, we provide data tables for R_AA vs. pT
+for further centrality classes. In these files (raa*.tex) 
+the errors are subdivided in different types. 
+The quoted errors (Type A,B,C) correspond to: 
+- A: Point-to-Point not correlated errors (mainly statistical) 
+- B: Point-to-Point correlated errors (e.g. energy scale) 
+- C: Globally correlated errors which move the points by a multiplicative 
+factor (mainly uncertainty in T_AB and in the p+p normalization)
+
+July 10, 2008
+
+ppg084:
+Christoph Baumann, 
+Sasha Bazilevsky, 
+Jiangyong Jia, 
+Christian Klein-Boesing, 
+Klaus Reygers (chair), 
+Carla Vale

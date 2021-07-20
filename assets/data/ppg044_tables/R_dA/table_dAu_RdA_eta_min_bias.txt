@@ -1,0 +1,26 @@
+2.75   1.21648   0.434638   0.223829   0.34013   0.134173 
+3.25   1.0566   0.232611   0.102122   0.161973   0.116538 
+3.75   1.24346   0.219973   0.0469897   0.148394   0.137149 
+4.25   1.18869   0.200989   0.0524473   0.124773   0.131108 
+4.75   1.20806   0.20478   0.0699708   0.119313   0.133245 
+5.25   1.03422   0.182985   0.0802425   0.101645   0.114071 
+5.75   1.03247   0.190782   0.0968473   0.101795   0.113878 
+6.5   1.15725   0.219672   0.119188   0.114563   0.12764 
+7.5   0.89639   0.214608   0.159876   0.0891139   0.0988684 
+8.5   1.2842   0.406103   0.350362   0.128055   0.141642 
+9.5   1.1404   0.399718   0.355623   0.113956   0.125782 
+11   1.50702   0.679535   0.635227   0.15089   0.166219 
+
+------------------------
+
+The columns in the table include the following information:
+
+pT ratio Total_error  Stat_error Systematic_error_B Systematic_error_C 
+
+------------------------
+
+The normalization uncertainty on the p+p reference of 9.7 % is not included here
+
+Systematic_error_B can vary with pT and is plotted as boxes around the data points
+Systematic_error_C is an overall scaling error of T_AB
+

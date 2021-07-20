@@ -1,0 +1,59 @@
+PHENIX 200 GeV dAu and pp J/Psi production - 12 August 2005
+===========================================================
+
+Results from the 2003 dAu and pp run for J/Psi -> mu+ mu-
+(PHENIX paper nucl-ex/0507032)
+
+Centrality dependence
+=====================
+
+Additional overall normalization uncertainties are not included below, but are:
+  RdAu - 12%
+
+* stat: statistical uncertainty
+* pt2pt: systematic between points in the same arm
+* arm2arm: systematic between the two muon arms
+* errors are acummulative, i.e. systematic errors include statistical errors
+
+
+                     <ncoll>      RdAu
+                  -------------   -----
+south     cent1   15.37 +/- 1.0   1.240
+(y=-1.7)  stat                    0.116
+          pt2pt                   0.170
+          arm2arm                 0.190
+
+          cent2   10.63 +/- 0.7   0.872
+          stat                    0.098
+          pt2pt                   0.104
+          arm2arm                 0.120
+
+          cent3    6.95 +/- 0.6   0.893
+          stat                    0.129
+          pt2pt                   0.134
+          arm2arm                 0.147
+
+          cent4    3.07 +/- 0.3   1.142
+          stat                    0.174
+          pt2pt                   0.179
+          arm2arm                 0.195
+
+north     cent1   15.37 +/- 1.0   0.651
+(y=1.8)   stat                    0.061
+          pt2pt                   0.064
+          arm2arm                 0.091
+
+          cent2   10.63 +/- 0.7   0.754
+          stat                    0.071
+          pt2pt                   0.073
+          arm2arm                 0.105
+
+          cent3    6.95 +/- 0.6   0.803
+          stat                    0.098
+          pt2pt                   0.099
+          arm2arm                 0.127
+
+          cent4    3.07 +/- 0.3   0.977
+          stat                    0.144
+          pt2pt                   0.144
+          arm2arm                 0.174

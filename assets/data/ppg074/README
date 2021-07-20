@@ -1,0 +1,8 @@
+
+fig1.txt: the per-trigger yield for 0-20% Au+Au and p+p
+fig2.txt: the Head/Shoulder ratio for 0-20% Au+Au and p+p
+fig3.txt:   Iaa for 0-20% Au+Au in awayside and awayside header region
+fig4.txt: the truncated mean <pT> vs Npart
+yield.txt: the partner spectra for 0-20% Au+Au and p+p (input for fig3.txt)
+
+Contact info : Jiangyong Jia jjia@bnl.gov
