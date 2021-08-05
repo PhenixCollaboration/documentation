@@ -1,0 +1,6 @@
+
+* Please note the unit in the vertical axis.
+
+y = -1.65 sigma 0.242708 e(STAT) 0.013 e(SYS) MAX 0.3641 MIN 0.1092
+
+  
