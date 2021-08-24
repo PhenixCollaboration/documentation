@@ -1,0 +1,46 @@
+h1 { 
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 20;
+  align: center;
+  color: #ffffff;
+  background-color: #66c;
+  width: 650px;
+}
+
+h3 { 
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 14;
+  color: #ffffff;
+  background-color: #0a0;
+  width: 600px;
+}
+
+ul {
+  margin-left: -10px;
+  list-style-type: circle;
+  width: 600px;
+}
+
+a {
+  text-decoration: none; 
+}
+
+a:hover, a:active { 
+  text-decoration: underline; 
+  color: #9685BA;
+}
+
+h3 a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+h3 a:hover, a:active {
+  color: #ffa;
+}
